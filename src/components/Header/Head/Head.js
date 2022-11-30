@@ -7,8 +7,8 @@ function Head () {
     return (
       <div className="Head">
         <div className="Head-box">
-          <img className="Head-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEwHmzqRPXfgSm6b0SbZHM7XA3COp4H9pOA&usqp=CAU" alt='Logo'></img>
-          <h1 className="Head-title">Shop-Shop</h1>
+          <img className="Head-logo" src="https://beverlylahayeinstitute.org/wp-content/uploads/2020/07/online-shopping-scaled.jpg" alt='Logo'></img>
+          <h1 className="Head-title">Shop</h1>
         </div>
         <div className="Head-pages">
           <ul className="Head-list">

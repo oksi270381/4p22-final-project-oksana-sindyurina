@@ -2,9 +2,9 @@
     outline: none;
     border: none;
     height: 45px;
-    background: #333333;
+    background: #802b2b79;
     padding: 8px 55px;
-    color: white;
+    color: rgba(255, 255, 255, 0.871);
     border-radius: 0;
     transition: .2s;
     cursor: pointer;
@@ -12,7 +12,7 @@
 }
 
 .CommonButton:hover {
-    background: rgba(66, 38, 38, 0.7);
+    background: rgba(102, 51, 153, 0.815)
 }
 
 @media screen and (max-width: 768px) {

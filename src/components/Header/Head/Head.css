@@ -4,21 +4,21 @@
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     display: flex;
     justify-content: space-between;
-    color: #787878;
+    color: rebeccapurple;
     position: fixed;
     z-index: 100;
-    background-color: white;
+    background-color: chartreuse;
   }
   
   .Head-box {
     display: flex;
-    column-gap: 30px;
+    column-gap: 60px;
   }
   
   .Head-title {
     margin: 0;
-    margin-top: 10px;
-    font-size: 50px;
+    margin-top: 1px;
+    font-size: 60px;
   }
   
   .Head-basket {
@@ -42,7 +42,7 @@
   
   .Head-link {
     font-size: 30px;
-    color: #787878;
+    color: crimson;
   }
   
   @media screen and (max-width: 768px) {

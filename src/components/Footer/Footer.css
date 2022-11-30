@@ -7,19 +7,19 @@
 }
 
 .Footer-box {
-   border: 1px solid rgb(231, 155, 12);
-   background-color: #f59d62;
+   border: 1px solid rgb(34, 12, 231);
+   background-color: #62a7f578;
    border-radius: 10px;
    width: 500px;
    height: 200px;
    box-shadow: 0px 4px 4px 4px rgb(0 0 0 / 25%);
    text-align: center;
-   color: #787878;
+   color: crimson;
    margin-left: 10px;
 }
 
 .Footer-sale_title {
-    color: red;
+    color: chartreuse;
 }
 
 .Footer-img {

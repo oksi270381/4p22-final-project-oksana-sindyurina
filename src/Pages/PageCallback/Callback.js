@@ -20,7 +20,7 @@ function Callback () {
                     <Link to="/" className='Box-link'>Catalog</Link>
                 </li>
             </ul>
-            <img className="Box-img" src='https://newbur.ru/upload/iblock/57b/g9x1ezy5wwudmedhf1nj6z7vdm1erpow.jpg' alt='Buy'></img>
+            <img className="Box-img" src='https://fikiwiki.com/uploads/posts/2022-02/1644713908_25-fikiwiki-com-p-prikolnie-kartinki-pro-shoping-30.jpg' alt='Buy'></img>
         </div>
         <div className="Comment">
             <form className="Callback">
