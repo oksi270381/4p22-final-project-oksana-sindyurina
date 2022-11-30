@@ -1,0 +1,21 @@
+.Filter-box {
+    position: fixed;
+    top: 100px;
+    left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .Filter-box {
+        top: calc(95 / 768 * 100vw);
+        left: 0;
+        text-align: center;
+    } 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Filter-box {
+        top: calc(100 / 1024 * 100vw);
+        left: 0;
+        text-align: center;
+    } 
+}

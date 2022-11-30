@@ -1,0 +1,43 @@
+.Card-container {
+    display: flex;
+    padding: 200px 35px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Page-up {
+    color: white;
+    position: relative;
+    top: -50px;
+    margin-left: 110px;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:gray;
+}
+
+@media screen and (max-width: 768px) {
+    .Card-container {
+      padding: calc(220 / 768 * 100vw) calc(30 / 768 * 100vw);
+      gap: calc(20 / 768 * 100vw);
+  }
+
+  .Page-up {
+    margin-left: calc(30 / 768 * 100vw);
+    font-size: calc(30 / 768 * 100vw);
+    width: calc(200 / 768 * 100vw);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .Page-up {
+    margin-left: calc(80 / 1024 * 100vw);
+  }
+
+  .Card-container {
+    padding: calc(220 / 1024 * 100vw) calc(100 / 1024 * 100vw);
+    gap: calc(20 / 1024 * 100vw);
+}
+    
+}
