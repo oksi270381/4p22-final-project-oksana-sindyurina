@@ -25,7 +25,7 @@
  
 .Box-link {
    font-size: 30px;
-   color: #787878;
+   color: #787878ba;
 }
 
 .Box-img {
@@ -45,10 +45,9 @@
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 37px;
-    background: #FFFFFF;
+    background: hwb(236 2% 72% / 0.801);
     font-weight: 700;
-    color: #787878;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
 }
 
 .Callback-title {
@@ -76,10 +75,10 @@
     opacity: 0;
 }
 
-.Callback-email__error2{
+.Callback-email__error2 {
     position: absolute;
     display: inline;
-    left: 1120px;
+    left: 1024px;
     color: red;
     opacity: 0;
 }
@@ -91,7 +90,7 @@
 .Callback-name__error {
     position: relative;
     display: inline;
-    left: 312px;
+    left: 198px;
     color: red;
     opacity: 0;
 }
@@ -191,7 +190,7 @@
     bottom: 0;
     width: 18px;
     height: 18px;
-    border: 2px solid #787878;
+    border: 2px solid #7878784a;
     border-radius: 50%;
 }
 
@@ -232,6 +231,22 @@
 
 .Callback-textarea::placeholder {
     color: #CCCCCC;
+}
+
+.Callback-textarea__erorr {
+    position: relative;
+    display: inline;
+    left: 89px;
+    color: red;
+    opacity: 0;
+}
+
+.Callback-textarea__error2 {
+    position: absolute;
+    display: inline;
+    left: 980px;
+    color: red;
+    opacity: 0;
 }
 
 .Callback-checkbox {
@@ -299,8 +314,24 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
+    .Callback-email__error2 {
+        left: calc(600 / 768 * 100vw);
+    }
 
+    .Callback-textarea__error2 {
+        left: calc(470 / 768 * 100vw);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Callback-email__error2 {
+        left: calc(853 / 1024 * 100vw);
+    }
+
+    .Callback-textarea__error2 {
+        left: calc(712 / 1024 * 100vw);
+    }
 }
 
 .red {

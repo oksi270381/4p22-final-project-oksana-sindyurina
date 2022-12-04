@@ -35,15 +35,4 @@
     }
 }
 
-/*@media screen and (min-width: 375px) and (max-width: 767px) {
-    .Home {
-        gap: calc(20 / 375 * 100vw);
-        padding: calc(150 / 375 * 100vw) calc(60 / 1024 * 100vw);
-    }
-    
-    .Home-img {
-        width: calc(150 / 375 * 100vw);
-        height: calc(150 / 375 * 100vw);
-    }
-}*/
 

@@ -11,7 +11,7 @@ function Product({img, title, name, description, prise, id}) {
               <div className ="Product-name">{ name }</div>
               <div className="Product-price common-price">{ prise }</div>
               <div className="Product-button">
-                  <Button>Buy</Button>
+                  <Button>В корзину</Button>
                </div>
             </div>
         </Link>

@@ -4,12 +4,12 @@ import './Filter.css';
 function Filter () {
     return (
         <div className="Filter-box">
-            <Button>All</Button>
-            <Button>Furniture</Button>
-            <Button>Electronics</Button>
-            <Button>Clothes</Button>
-            <Button>Shoes</Button>
-            <Button>Others</Button>
+            <Button>Все</Button>
+            <Button>Мебель</Button>
+            <Button>Электроника</Button>
+            <Button>Одежда</Button>
+            <Button>Обувь</Button>
+            <Button>Другое</Button>
         </div>
     )
 };

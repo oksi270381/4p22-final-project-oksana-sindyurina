@@ -21,7 +21,7 @@ function PageProduct () {
       <div id="header_1">
         <Head />
         <Filter />
-          <div class="Card-container">
+          <div className="Card-container">
             {
               products.map((item, index) => {
                 return <div key={index}>
@@ -34,7 +34,7 @@ function PageProduct () {
               })
             }
           </div>
-          <a className="Page-up" href='#header_1'>Back to top</a>
+          <a className="Page-up" href='#header_1'>#Вернуться к началу#</a>
         <Footer />
       </div>
     )
